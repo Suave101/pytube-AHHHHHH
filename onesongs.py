@@ -4,7 +4,7 @@ import moviepy.editor as mp
 
 universal_folder = os.getcwd()
 
-url = "https://www.youtube.com/watch?v=G2g3zfHqW4Q&list=PLkCV0SkyKAS1S5qAsXXEj7PY4MZ1xyCsI&index=1"
+url = ""
 YouTube(url).streams.get_highest_resolution().download()
 file = YouTube(url).title.title().replace("/", "") + ".mp4"
 print(file)

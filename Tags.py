@@ -4,7 +4,7 @@ import pytube
 
 itemlist = {}
 
-playlist = Playlist("https://www.youtube.com/playlist?list=PLTM1QGY6CxK9Y_WDE_cQosVJmuHG6JiaJ")
+playlist = Playlist("")
 for item in playlist:
     j = pytube.YouTube(item).title.title()
     oi = pytube.YouTube(item).metadata.metadata

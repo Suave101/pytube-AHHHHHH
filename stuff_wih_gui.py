@@ -6,7 +6,7 @@ import os
 import moviepy.editor as mp
 import re
 import time
-universal_folder = r"C:\Users\Alexander\PycharmProjects\AHHHHHHHH\DM"
+universal_folder = r"C:\\"
 
 
 def run():

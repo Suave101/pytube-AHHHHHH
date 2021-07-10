@@ -13,7 +13,7 @@ while True:
     try:
         while True:
             t = 0
-            playlist = Playlist("https://www.youtube.com/playlist?list=PLkCV0SkyKAS1S5qAsXXEj7PY4MZ1xyCsI")
+            playlist = Playlist("")
             print(playlist)
             for url in playlist:
                 t = 1 + t
