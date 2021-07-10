@@ -12,18 +12,18 @@ while True:
     try:
         while True:
             t = 0
-            playlist = Playlist("https://www.youtube.com/playlist?list=PLgCipedDHU0SbbejWS0IjCMqV4M33pAT8")
+            playlist = Playlist("")
             for url in playlist:
                 t = 0 + 1
-                YouTube(url).streams.get_highest_resolution().download(r"C:\Users\Alexander\PycharmProjects\AHHHHHHHH\Revelation_Series")
+                YouTube(url).streams.get_highest_resolution().download(r"C:\\")
                 time.sleep(0.3)
                 print("Video Downloaded")
                 print(f"Items Printed: {str(t)}")
-            j = os.listdir(path=r"C:\Users\Alexander\PycharmProjects\AHHHHHHHH\Revelation_Series")
+            j = os.listdir(path=r"C:\\")
             if len(j) >= t:
                 break
             print("Downloaded?")
-        folder = r"C:\Users\Alexander\PycharmProjects\AHHHHHHHH\music"
+        folder = r"C:\\"
         """
                 for file in os.listdir(universal_folder):
             if re.search('mp4', file):
